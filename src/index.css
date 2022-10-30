@@ -1,0 +1,67 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css');
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  margin: 0;
+  background-image: linear-gradient(to bottom, rgb(243, 219, 219), rgb(242, 245, 210), rgb(210, 220, 240), 
+  rgb(246, 215, 242), rgb(222, 245, 230));
+  background-size: 100%;
+  background-repeat:no-repeat ;
+  height: 100vh;
+}
+h1{
+  color: brown;
+}
+.bt{
+  width:15rem;
+  align-content: center;
+  display: inline;
+}
+b{
+  font-size: 20px;
+}
+hr{
+  border-top: 7px solid;
+}
+#submit-btn {
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #2857e3;
+  background: rgb(91, 221, 55);
+  margin: 1.2rem 0;
+  color: #000000;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.child{
+  height: 100px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(231, 9, 9);
+  text-align: center;
+  margin: 20px;
+}
+#parent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 3px solid black;
+  background-color: aquamarine;
+  width: 80%;
+  margin: 40px 10% 0px 10% ;
+  visibility: none;
+}
+.vbnone{
+  visibility: none;
+}
+.vb{
+  visibility: hidden;
+}
+span{
+  color: white;
+}
